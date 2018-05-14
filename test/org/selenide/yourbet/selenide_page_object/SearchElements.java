@@ -45,7 +45,7 @@ public class SearchElements extends DataConfig {
     public SelenideElement saveProfilePopup;
     @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[3]/div")
     public SelenideElement cashierIcon;
-    @FindBy(xpath = "/html/body/div[6]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/div/div[2]/div[3]")
+    @FindBy(xpath = "/html/body/div[6]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/div/div[2]/div[1]")
     public SelenideElement visa_mastercard_RadioButton;
     @FindBy(id = "profile-deposit-amount")
     public SelenideElement fieldForSumVisaMastercard;
