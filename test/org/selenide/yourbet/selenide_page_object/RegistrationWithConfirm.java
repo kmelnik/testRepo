@@ -24,7 +24,7 @@ public class RegistrationWithConfirm extends ActionsWithElements {
     public SelenideElement refreshLinkTempMail;
     @FindBy (css = "#mails > tbody > tr > td:nth-child(2) > a")
     public SelenideElement clickActivateAccountLinkTempMail;
-    @FindBy (xpath="//*//a[contains(text(),'link')]")
+    @FindBy (xpath="//*//a[contains(text(),'Activate your account')]")
     public SelenideElement linkForConfirmAccountTempMail;
 
 
@@ -38,7 +38,7 @@ public class RegistrationWithConfirm extends ActionsWithElements {
         refreshLinkTempMail.click();
         clickActivateAccountLinkTempMail.waitUntil(Condition.visible, 20000);
         clickActivateAccountLinkTempMail.click();
-        linkForConfirmAccountTempMail.scrollTo();
+       // linkForConfirmAccountTempMail.scrollTo();
         linkForConfirmAccountTempMail.followLink();
         timeout=15000;
         profileAvatar.isDisplayed();

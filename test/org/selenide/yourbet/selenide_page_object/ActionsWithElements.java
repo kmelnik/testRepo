@@ -11,7 +11,8 @@ public class ActionsWithElements extends SearchElements {
 
 
     public ActionsWithElements searchLogoPresent() {
-        logoPresent.shouldBe(visible);
+
+        logoPresent.waitUntil(visible,100000);
 
         return page(ActionsWithElements.class);
 
