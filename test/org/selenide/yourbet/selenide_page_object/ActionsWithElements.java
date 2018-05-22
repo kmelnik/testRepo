@@ -98,10 +98,10 @@ public class ActionsWithElements extends SearchElements {
     public ActionsWithElements bankCardDepositMethod() {
         loginMethod();
         cashierIcon.click();
-        visa_mastercard_RadioButton.click();
+       // visa_mastercard_RadioButton.click();
         fieldForSumVisaMastercard.setValue(getTestProperty("sum_in_field_BankCard"));
         depositButtonVisaMastercard.pressEnter();
-        cardPaySumPresent.shouldHave(exactText("55.00 EUR"));
+        cardPaySumPresent.shouldHave(exactText("55.00"));
         inputCardNumberField.setValue(getTestProperty("test_BankCard_number"));
         inputCardHolderField.setValue(getTestProperty("test_cardHolder_name"));
         cardExpiresMonth.click();
@@ -112,7 +112,7 @@ public class ActionsWithElements extends SearchElements {
         payCardSubmitButton.pressEnter();
         successPaymentEmulateButton.waitUntil(visible, 10000);
         successPaymentEmulateButton.pressEnter();
-        paymentStatus.shouldHave(exactText("CONFIRMED"));
+        paymentStatus.shouldHave(exactText("Success"));
 
 
         return page(ActionsWithElements.class);

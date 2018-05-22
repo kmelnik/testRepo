@@ -51,23 +51,23 @@ public class SearchElements extends DataConfig {
     public SelenideElement fieldForSumVisaMastercard;
     @FindBy(id = "profile-process-deposit")
     public SelenideElement depositButtonVisaMastercard;
-    @FindBy(xpath = "//*[@id=\"payment-form\"]/section[1]/div[3]/div[2]/strong")
+    @FindBy(id="total-amount")
     public SelenideElement cardPaySumPresent;
-    @FindBy(id = "card-number")
+    @FindBy(id = "input-card-number")
     public SelenideElement inputCardNumberField;
-    @FindBy(id = "card-holder")
+    @FindBy(id = "input-card-holder")
     public SelenideElement inputCardHolderField;
-    @FindBy(id = "exp-month")
+    @FindBy(id = "card-expires-month")
     public SelenideElement cardExpiresMonth;
-    @FindBy(id = "exp-year")
+    @FindBy(id = "card-expires-year")
     public SelenideElement cardExpiresYear;
-    @FindBy(id = "cvc")
+    @FindBy(id = "input-card-cvc")
     public SelenideElement cvvField;
-    @FindBy(id = "btn-submit")
+    @FindBy(id = "action-submit")
     public SelenideElement payCardSubmitButton;
     @FindBy(id = "success")
     public SelenideElement successPaymentEmulateButton;
-    @FindBy(id = "input.0")
+    @FindBy(id = "payment-status-title")
     public SelenideElement paymentStatus;
     @FindBy (xpath = "//*//a[@href='/en/promotions']")
     public SelenideElement linkPromoPage;
