@@ -11,7 +11,7 @@ import org.selenide.yourbet.selenide_page_object.RegistrationWithConfirm;
 import static com.codeborne.selenide.Configuration.browser;
 import static com.codeborne.selenide.Selenide.open;
 
-public class MainPageCheckRegistrationWithConfirm extends RegistrationWithConfirm {
+public class MainPageCheckRegistrationWithConfirmEmail extends RegistrationWithConfirm {
     @Before
     public void testSetUp() {
 
@@ -30,8 +30,9 @@ public class MainPageCheckRegistrationWithConfirm extends RegistrationWithConfir
     }
     @Test
     public void checkRegistrationWithConfirm () {
-        RegistrationWithConfirm openURL = open(getTestProperty("url_prod"), RegistrationWithConfirm.class);
-        RegistrationWithConfirm checkRegistrationMethodWithConfirm = openURL.checkRegistrationMethodWithConfirm();
+        RegistrationWithConfirm openURL = open(getTestProperty("url"), RegistrationWithConfirm.class);
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        RegistrationWithConfirm regconfemailInProfile = openURL.checkRegistrationMethodWithConfirm();
 
     }
     @After

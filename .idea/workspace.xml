@@ -5,9 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/config.properties" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/config.properties" />
       <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/ActionsWithElements.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/ActionsWithElements.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/RegistrationWithConfirm.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/RegistrationWithConfirm.java" />
       <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/SearchElements.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/SearchElements.java" />
-      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/CashPageCheckDepositByCreditCard.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/CashPageCheckDepositByCreditCard.java" />
       <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckOpenSite.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckOpenSite.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirm.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirmEmail.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java" />
+      <change beforePath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java" afterPath="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainPageLoginPossitiveTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SearchElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/SearchElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="101">
+              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,31 +47,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CashPageCheckDepositByCreditCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/CashPageCheckDepositByCreditCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPageCheckOpenSite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckOpenSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="32" column="84" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ActionsWithElements.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/ActionsWithElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+            <state relative-caret-position="117">
+              <caret line="101" column="56" lean-forward="false" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromoPageIsPresent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfilePageCheckProfileUpdateTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPageLoginNegativeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPageCheckRegistrationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="31" column="26" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -64,8 +100,8 @@
       <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="32">
+              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -118,12 +154,7 @@
         <option value="$PROJECT_DIR$/test/org/selenide/examples/YourBetTests.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/ExelDriver.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/DataConfig.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/config_Properties_MaxPay/DataConfigMaxPay.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/config_Properties_MaxPay/config.Properties.MaxPay" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_maxpay_tests/LoginPositiveTest.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_maxpay_tests/LoginNegativeTest.java" />
@@ -134,13 +165,19 @@
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_maxpay_tests/SwapiRestApiTests.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/config_Properties_MaxPay/config.MaxPay.properties" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_maxpay_tests/SwapiRestApiTests.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/RegistrationWithConfirm.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirm.java" />
-        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckOpenSite.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/CashPageCheckDepositByCreditCard.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckOpenSite.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/config.properties" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/SearchElements.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirm.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirmEmail.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/RegistrationWithConfirm.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java" />
+        <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java" />
         <option value="$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/ActionsWithElements.java" />
       </list>
     </option>
@@ -297,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CashPageCheckDepositByCreditCard">
+  <component name="RunManager" selected="JUnit.ProfilePageCheckProfileUpdateTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -319,20 +356,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CashPageCheckDepositByCreditCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.selenide.yourbet.selenide_yourbet_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="CashPageCheckDepositByCreditCard and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="google" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.selenide.yourbet.selenide_yourbet_tests" />
-      <option name="MAIN_CLASS_NAME" value="org.selenide.yourbet.selenide_yourbet_tests.CashPageCheckDepositByCreditCard" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="pattern" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -342,9 +374,14 @@
         <value defaultName="singleModule" />
       </option>
       <envs />
-      <patterns />
+      <patterns>
+        <pattern testClass="org.selenide.yourbet.selenide_yourbet_tests.CashPageCheckDepositByCreditCard" />
+        <pattern testClass="org.selenide.yourbet.selenide_yourbet_tests.MainPageCheckOpenSite" />
+        <pattern testClass="org.selenide.yourbet.selenide_yourbet_tests.MainPageCheckRegistrationTest" />
+        <pattern testClass="org.selenide.yourbet.selenide_yourbet_tests.MainPageCheckRegistrationWithConfirmEmail" />
+      </patterns>
     </configuration>
-    <configuration name="MainPageCheckOpenSite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageLoginNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.selenide.yourbet.selenide_yourbet_tests.*" />
@@ -355,32 +392,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.selenide.yourbet.selenide_yourbet_tests" />
-      <option name="MAIN_CLASS_NAME" value="org.selenide.yourbet.selenide_yourbet_tests.MainPageCheckOpenSite" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MainPageCheckRegistrationWithConfirm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.selenide.yourbet.selenide_yourbet_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="google" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.selenide.yourbet.selenide_yourbet_tests" />
-      <option name="MAIN_CLASS_NAME" value="org.selenide.yourbet.selenide_yourbet_tests.MainPageCheckRegistrationWithConfirm" />
+      <option name="MAIN_CLASS_NAME" value="org.selenide.yourbet.selenide_yourbet_tests.MainPageLoginNegativeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -419,13 +431,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+    <configuration name="ProfilePageCheckProfileUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.selenide.yourbet.selenide_yourbet_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="google" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="org.selenide.yourbet.selenide_yourbet_tests" />
+      <option name="MAIN_CLASS_NAME" value="org.selenide.yourbet.selenide_yourbet_tests.ProfilePageCheckProfileUpdateTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -439,7 +456,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="org.selenide.yourbet.selenide_yourbet_tests in google" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PromoPageIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.selenide.yourbet.selenide_yourbet_tests.*" />
@@ -450,9 +467,29 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.selenide.yourbet.selenide_yourbet_tests" />
+      <option name="MAIN_CLASS_NAME" value="org.selenide.yourbet.selenide_yourbet_tests.PromoPageIsPresent" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -505,19 +542,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.org.selenide.yourbet.selenide_yourbet_tests in google" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MainPageCheckRegistrationWithConfirm" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CashPageCheckDepositByCreditCard" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MainPageCheckOpenSite" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MainPageLoginPossitiveTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MainPageLoginNegativeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CashPageCheckDepositByCreditCard and 3 more" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MainPageLoginPossitiveTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PromoPageIsPresent" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProfilePageCheckProfileUpdateTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CashPageCheckDepositByCreditCard" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MainPageCheckOpenSite" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProfilePageCheckProfileUpdateTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PromoPageIsPresent" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.MainPageLoginPossitiveTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MainPageCheckRegistrationWithConfirm" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.org.selenide.yourbet.selenide_yourbet_tests in google" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MainPageLoginNegativeTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CashPageCheckDepositByCreditCard and 3 more" />
       </list>
     </recent_temporary>
   </component>
@@ -871,39 +908,46 @@
       <option name="project" value="LOCAL" />
       <updated>1526985513879</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="changed selectors in CashPage, OpenSite tests commit 05-06-2018">
+      <created>1528205005516</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1528205005516</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 15h 46m 25s.xml">
+    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 17h 56m 53s.xml">
       <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 15h 47m 27s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="CashPageCheckDepositByCreditCard_and_3_more - 2018.06.05 at 17h 59m 03s.xml">
+      <configuration name="CashPageCheckDepositByCreditCard and 3 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 03m 25s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="MainPageCheckRegistrationWithConfirmEmail - 2018.06.05 at 17h 43m 37s.xml">
+      <configuration name="MainPageCheckRegistrationWithConfirmEmail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 07m 33s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="MainPageCheckRegistrationWithConfirmEmail - 2018.06.05 at 17h 48m 20s.xml">
+      <configuration name="MainPageCheckRegistrationWithConfirmEmail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 09m 21s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="MainPageLoginNegativeTest - 2018.06.05 at 18h 00m 20s.xml">
+      <configuration name="MainPageLoginNegativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 10m 45s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="MainPageLoginPossitiveTest - 2018.06.05 at 18h 01m 11s.xml">
+      <configuration name="MainPageLoginPossitiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 13m 08s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="ProfilePageCheckProfileUpdateTest - 2018.06.05 at 18h 03m 42s.xml">
+      <configuration name="ProfilePageCheckProfileUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 15m 36s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="ProfilePageCheckProfileUpdateTest - 2018.06.05 at 18h 06m 49s.xml">
+      <configuration name="ProfilePageCheckProfileUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 16m 48s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="ProfilePageCheckProfileUpdateTest - 2018.06.05 at 18h 12m 04s.xml">
+      <configuration name="ProfilePageCheckProfileUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashPageCheckDepositByCreditCard - 2018.06.05 at 16h 21m 24s.xml">
-      <configuration name="CashPageCheckDepositByCreditCard" configurationId="JUnit" />
+    <history-entry file="PromoPageIsPresent - 2018.06.05 at 18h 02m 11s.xml">
+      <configuration name="PromoPageIsPresent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -963,7 +1007,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated tests. Reg with Confirmation 26-04" />
     <MESSAGE value=" Reg with Confirmation Test (update) 26-04" />
     <MESSAGE value=" Reg with Confirmation Test (update) 27-04" />
     <MESSAGE value="Updated locators in tests 28-04-2018" />
@@ -988,7 +1031,8 @@
     <MESSAGE value="CashPage X-path radio button changed commit 14-05-2018" />
     <MESSAGE value="Reg with confirm XPATH changed and URL prod commit 16-05-2018" />
     <MESSAGE value="changed id path pay via credit card test commit 22-05-2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed id path pay via credit card test commit 22-05-2018" />
+    <MESSAGE value="changed selectors in CashPage, OpenSite tests commit 05-06-2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed selectors in CashPage, OpenSite tests commit 05-06-2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1064,34 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/config_Properties_MaxPay/DataConfigMaxPay.java" />
     <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/DataConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1130,29 +1146,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,35 +1162,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/RegistrationWithConfirm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/1528202845433.0.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/SearchElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/CashPageCheckDepositByCreditCard.java">
@@ -1203,18 +1175,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/configProperties/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckOpenSite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="32" column="84" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="84" />
+        <state relative-caret-position="166">
+          <caret line="32" column="84" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="84" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/RegistrationWithConfirm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationWithConfirmEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageCheckRegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/ProfilePageCheckProfileUpdateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/PromoPageIsPresent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_yourbet_tests/MainPageLoginPossitiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/SearchElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/selenide/yourbet/selenide_page_object/ActionsWithElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+        <state relative-caret-position="117">
+          <caret line="101" column="56" lean-forward="false" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
           <folding />
         </state>
       </provider>

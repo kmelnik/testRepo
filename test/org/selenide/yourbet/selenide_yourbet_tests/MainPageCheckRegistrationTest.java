@@ -28,8 +28,8 @@ public class MainPageCheckRegistrationTest extends ActionsWithElements {
     @Test
     public void checkRegistrationTest() {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements searchLogo = openURL.searchLogoPresent();
-        ActionsWithElements registrationOn = openURL.checkRegistrationMethod();
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        notePrivacyPolicy.checkRegistrationMethod();
     }
     @After
     public void testShutDown() {

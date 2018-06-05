@@ -59,16 +59,20 @@ public class ActionsWithElements extends SearchElements {
         registrationButton.click();
         emailFieldRegForm.exists();
         emailFieldRegForm.setValue(partOfEmail + getTestProperty("domain_email"));
-        loginRegFormField.exists();
-        loginRegFormField.setValue(generateString());
-        passwordFiledRegForm.exists();
-        passwordFiledRegForm.setValue(getTestProperty("positive_password1"));
         radioButtonEUR.exists();
         radioButtonEUR.click();
         checkBoxAgreeTerms.exists();
         checkBoxAgreeTerms.click();
         registrationButtonInForm.pressEnter();
-        activateAccountPopupInfo.shouldBe(visible);
+        cashProfileBlock.shouldBe(visible);
+
+        return page(ActionsWithElements.class);
+    }
+
+    public ActionsWithElements confirmEmailinProfile() {
+        checkRegistrationMethod();
+        personalInfoBlock.click();
+        emailCondirmButtonInProfile.click();
 
         return page(ActionsWithElements.class);
     }
@@ -89,13 +93,13 @@ public class ActionsWithElements extends SearchElements {
 
     public ActionsWithElements profileUpdateMethod() {
         loginMethod();
-        profileAvatar.click();
+        authNickNameElement.click();
         passwordFiled.clear();
         passwordFiled.setValue(getTestProperty("positive_password1"));
         saveProfileDataButton.waitUntil(enabled, 10000);
         saveProfileDataButton.pressEnter();
         saveProfilePopup.isDisplayed();
-        // saveProfilePopup.shouldHave(text("Настройки профіля збережено"));
+        saveProfilePopup.shouldHave(text("Profile saved"));
         return page(ActionsWithElements.class);
     }
 

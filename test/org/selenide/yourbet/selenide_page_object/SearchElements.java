@@ -27,7 +27,7 @@ public class SearchElements extends DataConfig {
     public SelenideElement cashierInternalButtonInProfile;
     @FindBy(className = "error-popup")
     public SelenideElement popupErrorLogin;
-    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[2]/div[1]/div")
+    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[4]/div/div[1]/div")
     public SelenideElement registrationButton;
     @FindBy(name = "email")
     public SelenideElement emailFieldRegForm;
@@ -41,8 +41,12 @@ public class SearchElements extends DataConfig {
     public SelenideElement checkBoxAgreeTerms;
     @FindBy(xpath = "//*[@id=\"register\"]/div/div[2]/form/div[2]/div[1]/input")
     public SelenideElement registrationButtonInForm;
-    @FindBy(xpath = "//*//h5[contains (text(), 'Please follow the activation link sent to you by e-mail')]")
-    public SelenideElement activateAccountPopupInfo;
+    @FindBy (className = "profile-block")
+    public SelenideElement cashProfileBlock;
+    @FindBy (className = "personal")
+    public SelenideElement personalInfoBlock;
+    @FindBy (xpath = "/html/body/div[7]/div/div/div/div[2]/div[2]/div/form/div/div/div[4]/div/div[3]/div")
+    public SelenideElement emailCondirmButtonInProfile;
     @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div/div[1]/div[1]/img")
     public SelenideElement profileAvatar;
     @FindBy(xpath = "/html/body/div[6]/div/div/div/div[2]/div[2]/div/form/div/div/div[4]/div/div[4]/div/input")

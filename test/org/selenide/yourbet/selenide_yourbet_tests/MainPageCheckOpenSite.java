@@ -31,7 +31,7 @@ public class MainPageCheckOpenSite extends ActionsWithElements {
     public void checkOpenSite() {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
         ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
-        ActionsWithElements searchLogo = notePrivacyPolicy.searchLogoPresent();
+        notePrivacyPolicy.searchLogoPresent();
 
     }
     @After

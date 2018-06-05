@@ -28,8 +28,8 @@ public class MainPageLoginNegativeTest extends ActionsWithElements {
     @Test
     public void loginOnNegativeTest() {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements searchLogo = openURL.searchLogoPresent();
-        ActionsWithElements loginOn = openURL.loginMethodNegative();
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        notePrivacyPolicy.loginMethodNegative();
     }
     @After
     public void testShutDown() {

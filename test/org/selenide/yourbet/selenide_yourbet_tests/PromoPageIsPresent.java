@@ -28,8 +28,8 @@ public class PromoPageIsPresent extends ActionsWithElements {
     @Test
     public void promoPageWithBonusesVisibleTest () {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements searchLogo = openURL.searchLogoPresent();
-        ActionsWithElements loginOn = openURL.promoPageIsPresentWithBonuses();
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        notePrivacyPolicy.promoPageIsPresentWithBonuses();
     }
     @After
     public void testShutDown() {

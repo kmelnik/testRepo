@@ -29,8 +29,8 @@ public class RegistrationWithConfirm extends ActionsWithElements {
 
 
     public RegistrationWithConfirm checkRegistrationMethodWithConfirm() {
-        checkRegistrationMethod();
-        switchTo().defaultContent();
+        confirmEmailinProfile();
+     /*   switchTo().defaultContent();
         open(getTestProperty("url_temp_email"));
         loginMailFieldTempReg.setValue(partOfEmail);
         domainNameTempReg.selectOptionContainingText(getTestProperty("domain_email"));
@@ -41,10 +41,7 @@ public class RegistrationWithConfirm extends ActionsWithElements {
        // linkForConfirmAccountTempMail.scrollTo();
         linkForConfirmAccountTempMail.followLink();
         timeout=15000;
-        profileAvatar.isDisplayed();
-
-
-
+        profileAvatar.isDisplayed(); */
 
 
         return page(RegistrationWithConfirm.class);

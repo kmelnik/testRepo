@@ -28,8 +28,8 @@ public class ProfilePageCheckProfileUpdateTest extends ActionsWithElements {
     @Test
     public void checkProfileUpdate() {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements searchLogo = openURL.searchLogoPresent();
-        ActionsWithElements profileUpdate = openURL.profileUpdateMethod();
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        notePrivacyPolicy.profileUpdateMethod();
     }
     @After
     public void testShutDown() {
