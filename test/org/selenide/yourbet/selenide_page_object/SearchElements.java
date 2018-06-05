@@ -13,7 +13,7 @@ public class SearchElements extends DataConfig {
     public SelenideElement agreeButtonPrivacyPolicy;
     @FindBy(css = "#applicationContainer img")
     public SelenideElement logoPresent;
-    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[4]/div/div[2]/div")
+    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[3]/div/div[2]/div")
     public SelenideElement loginButton;
     @FindBy(name = "email")
     public SelenideElement loginField;
@@ -21,13 +21,13 @@ public class SearchElements extends DataConfig {
     public SelenideElement passwordFiled;
     @FindBy(tagName = "button")
     public SelenideElement buttonEnter;
-    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[3]/div/div[1]/div[2]/div[1]/a/div")
+    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[2]/div/div[1]/div[2]/div[1]/a/div")
     public SelenideElement authNickNameElement;
     @FindBy (xpath = "//a[@class='label ng-isolate-scope']")
     public SelenideElement cashierInternalButtonInProfile;
     @FindBy(className = "error-popup")
     public SelenideElement popupErrorLogin;
-    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[4]/div/div[1]/div")
+    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[3]/div/div[1]/div")
     public SelenideElement registrationButton;
     @FindBy(name = "email")
     public SelenideElement emailFieldRegForm;
@@ -53,7 +53,7 @@ public class SearchElements extends DataConfig {
     public SelenideElement saveProfileDataButton;
     @FindBy(className = "gap")
     public SelenideElement saveProfilePopup;
-    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[3]/div")
+    @FindBy(xpath = "/html/body/div[6]/div/div/div/div[2]/div[1]/ul/li[1]/a/div/div")
     public SelenideElement cashierIcon;
     @FindBy(xpath = "/html/body/div[6]/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/div/div[2]/div[1]")
     public SelenideElement visa_mastercard_RadioButton;

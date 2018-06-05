@@ -105,7 +105,8 @@ public class ActionsWithElements extends SearchElements {
 
     public ActionsWithElements bankCardDepositMethod() {
         loginMethod();
-        cashierIcon.click();
+        authNickNameElement.click();
+       // cashierIcon.click();
         // visa_mastercard_RadioButton.click();
         cashierInternalButtonInProfile.click();
         fieldForSumVisaMastercard.setValue(getTestProperty("sum_in_field_BankCard"));
