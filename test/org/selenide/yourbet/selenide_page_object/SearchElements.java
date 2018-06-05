@@ -7,9 +7,13 @@ import org.selenide.yourbet.configProperties.DataConfig;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class SearchElements extends DataConfig {
+    @FindBy (xpath = "//*[text()='Note of change of the Privacy policy']")
+    public SelenideElement titleNotificationPrivacyPolicy;
+    @FindBy (xpath = "//a[text()='I agree']")
+    public SelenideElement agreeButtonPrivacyPolicy;
     @FindBy(css = "#applicationContainer img")
     public SelenideElement logoPresent;
-    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div")
+    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[4]/div/div[2]/div")
     public SelenideElement loginButton;
     @FindBy(name = "email")
     public SelenideElement loginField;
@@ -17,8 +21,10 @@ public class SearchElements extends DataConfig {
     public SelenideElement passwordFiled;
     @FindBy(tagName = "button")
     public SelenideElement buttonEnter;
-    @FindBy(css = "#applicationContainer div.item.pincode.for-desktop-view.ng-binding")
-    public SelenideElement pinCodeElement;
+    @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[3]/div/div[1]/div[2]/div[1]/a/div")
+    public SelenideElement authNickNameElement;
+    @FindBy (xpath = "//a[@class='label ng-isolate-scope']")
+    public SelenideElement cashierInternalButtonInProfile;
     @FindBy(className = "error-popup")
     public SelenideElement popupErrorLogin;
     @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[2]/div[1]/div")

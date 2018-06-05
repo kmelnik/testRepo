@@ -30,7 +30,8 @@ public class MainPageCheckOpenSite extends ActionsWithElements {
     @Test
     public void checkOpenSite() {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements searchLogo = openURL.searchLogoPresent();
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        ActionsWithElements searchLogo = notePrivacyPolicy.searchLogoPresent();
 
     }
     @After

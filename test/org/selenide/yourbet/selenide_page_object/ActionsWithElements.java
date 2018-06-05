@@ -9,10 +9,15 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class ActionsWithElements extends SearchElements {
 
+    public ActionsWithElements noteOfChangePrivacyPolicy() {
+        titleNotificationPrivacyPolicy.shouldHave(text("Note of change of the Privacy policy"));
+        agreeButtonPrivacyPolicy.shouldBe(enabled).click();
+        return page(ActionsWithElements.class);
+    }
 
     public ActionsWithElements searchLogoPresent() {
 
-        logoPresent.waitUntil(visible,100000);
+        logoPresent.shouldBe(visible);
 
         return page(ActionsWithElements.class);
 
@@ -27,8 +32,7 @@ public class ActionsWithElements extends SearchElements {
         passwordFiled.setValue(getTestProperty("positive_password1"));
         buttonEnter.exists();
         buttonEnter.pressEnter();
-        pinCodeElement.isDisplayed();
-        pinCodeElement.shouldHave(text(getTestProperty("PIN_FOR_LOGIN1")));
+        authNickNameElement.shouldHave(text(getTestProperty("auth_User_Nickname")));
 
 
         return page(ActionsWithElements.class);
@@ -98,7 +102,8 @@ public class ActionsWithElements extends SearchElements {
     public ActionsWithElements bankCardDepositMethod() {
         loginMethod();
         cashierIcon.click();
-       // visa_mastercard_RadioButton.click();
+        // visa_mastercard_RadioButton.click();
+        cashierInternalButtonInProfile.click();
         fieldForSumVisaMastercard.setValue(getTestProperty("sum_in_field_BankCard"));
         depositButtonVisaMastercard.pressEnter();
         cardPaySumPresent.shouldHave(exactText("55.00"));

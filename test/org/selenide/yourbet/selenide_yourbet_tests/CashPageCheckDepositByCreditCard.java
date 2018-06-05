@@ -28,8 +28,8 @@ public class CashPageCheckDepositByCreditCard extends ActionsWithElements {
     @Test
     public void checkDepositByCreditCard () {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements searchLogo = openURL.searchLogoPresent();
-        ActionsWithElements checkDepositbyCreditCard = openURL.bankCardDepositMethod();
+        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
+        notePrivacyPolicy.bankCardDepositMethod();
 
     }
     @After
