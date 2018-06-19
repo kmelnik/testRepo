@@ -23,7 +23,7 @@ public class SearchElements extends DataConfig {
     public SelenideElement buttonEnter;
     @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[2]/div/div[1]/div[2]/div[1]/a/div")
     public SelenideElement authNickNameElement;
-    @FindBy (xpath = "//a[@class='label ng-isolate-scope']")
+    @FindBy (xpath = "//a[@class='label ng-scope ng-isolate-scope']")
     public SelenideElement cashierInternalButtonInProfile;
     @FindBy(className = "error-popup")
     public SelenideElement popupErrorLogin;
