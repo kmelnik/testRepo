@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.selenide.yourbet.selenide_page_object.ActionsWithElements;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Configuration.browser;
 import static com.codeborne.selenide.Selenide.open;
 
@@ -31,9 +32,11 @@ public class MainPageLoginPossitiveTest extends ActionsWithElements {
     @Test
     public void loginOnPossitiveTest() {
         ActionsWithElements openURL = open(getTestProperty("url"), ActionsWithElements.class);
-        ActionsWithElements notePrivacyPolicy = openURL.noteOfChangePrivacyPolicy();
-        notePrivacyPolicy.loginMethod();
+        ActionsWithElements assertUserNickName = openURL.noteOfChangePrivacyPolicy();
+        assertUserNickName.loginMethod();
+        assertUserNickName.authNickNameElement.shouldHave(text(getTestProperty("auth_User_Nickname")));
     }
+
     @After
     public void testShutDown() {
         WebDriverRunner.clearBrowserCache();
