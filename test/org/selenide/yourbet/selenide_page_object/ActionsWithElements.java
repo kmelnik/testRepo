@@ -71,7 +71,7 @@ public class ActionsWithElements extends SearchElements {
 
     public ActionsWithElements confirmEmailinProfile() {
         checkRegistrationMethod();
-        personalInfoBlock.click();
+        authNickNameElement.click();
         emailCondirmButtonInProfile.click();
 
         return page(ActionsWithElements.class);
@@ -111,7 +111,7 @@ public class ActionsWithElements extends SearchElements {
         cashierInternalButtonInProfile.click();
         fieldForSumVisaMastercard.setValue(getTestProperty("sum_in_field_BankCard"));
         depositButtonVisaMastercard.pressEnter();
-        cardPaySumPresent.shouldHave(exactText("55.00"));
+        cardPaySumPresent.shouldHave(exactText("20.00"));
         inputCardNumberField.setValue(getTestProperty("test_BankCard_number"));
         inputCardHolderField.setValue(getTestProperty("test_cardHolder_name"));
         cardExpiresMonth.click();

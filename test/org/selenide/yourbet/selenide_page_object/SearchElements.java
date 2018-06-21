@@ -17,7 +17,7 @@ public class SearchElements extends DataConfig {
     public SelenideElement loginButton;
     @FindBy(name = "email")
     public SelenideElement loginField;
-    @FindBy(name = "password")
+    @FindBy(xpath="//input[@name = 'password']")
     public SelenideElement passwordFiled;
     @FindBy(tagName = "button")
     public SelenideElement buttonEnter;
@@ -41,15 +41,15 @@ public class SearchElements extends DataConfig {
     public SelenideElement checkBoxAgreeTerms;
     @FindBy(xpath = "//*[@id=\"register\"]/div/div[2]/form/div[2]/div[1]/input")
     public SelenideElement registrationButtonInForm;
-    @FindBy (className = "profile-block")
+    @FindBy (xpath = "//*[@id=\"applicationContainer\"]//div[1]//div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/img")
     public SelenideElement cashProfileBlock;
     @FindBy (className = "personal")
     public SelenideElement personalInfoBlock;
-    @FindBy (xpath = "/html/body/div[7]/div/div/div/div[2]/div[2]/div/form/div/div/div[4]/div/div[3]/div")
+    @FindBy (xpath = "//div[text()='Confirm your email address']")
     public SelenideElement emailCondirmButtonInProfile;
     @FindBy(xpath = "//*[@id=\"applicationContainer\"]/div/div/div[1]/div/div/div[3]/div[1]/div[1]/div/div[1]/div[1]/img")
     public SelenideElement profileAvatar;
-    @FindBy(xpath = "/html/body/div[6]/div/div/div/div[2]/div[2]/div/form/div/div/div[4]/div/div[4]/div/input")
+    @FindBy(xpath = "//div[1]//div[2]/div[2]/div/form//div[4]/div/div[5]//input")
     public SelenideElement saveProfileDataButton;
     @FindBy(className = "gap")
     public SelenideElement saveProfilePopup;
